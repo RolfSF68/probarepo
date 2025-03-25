@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  tasks: 
+
+  - name: felteszem az apache2 csomagot
+    apt:
+      name: apache2
+      
