@@ -6,4 +6,4 @@
   - name: felteszem az apache2 csomagot
     apt:
       name: apache2
-      
+      state: latest
